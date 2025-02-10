@@ -30,10 +30,15 @@
     main .info-recipe ul {
         flex-direction: column;
         gap: 0px;
+        font-size: 1rem;
     }
 
     main .info-recipe ul li {
         width: 100%;
+    }
+
+    main .info-recipe h3 {
+        font-size: 1.5rem;
     }
 
     /* social logos  */
@@ -53,8 +58,19 @@
         width: 30%;
     }
 
+    .recipe h2 {
+        font-size: 1.5rem;
+    }
+
+    .recipe p {
+        font-size: 1rem;
+    }
     /* FOOTER  */
 
+    footer {
+        font-size: 0.8rem;
+    }
+    
     .footer-container {
         display: flex;
         justify-content: space-between;
