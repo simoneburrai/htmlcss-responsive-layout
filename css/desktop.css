@@ -45,5 +45,11 @@
         display: inline;
         text-transform: uppercase;
     }
+
+    /* RECIPE SECTION  */
+
+.recipe img {
+    width: 25%;
+ }
 }
 
