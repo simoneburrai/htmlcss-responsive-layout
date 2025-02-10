@@ -5,21 +5,43 @@
 }
 
 body {
-    width: 500px;
+    width: 450px;
+    max-width: 100%;
     font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
+/* HEADER  */
 header {
     background-color: #ffffff;
     padding: 20px 0;
 }
 
 
-h1 {
+.logo {
     font-family: 'Nerko One';
     color: #ff9614;
     text-transform: uppercase;
     text-shadow: 1px 0px 1px grey;
-    font-size: 3rem;
     text-align: center;
+    font-size: 3rem;
+}
+
+/* MAIN  */
+
+main {
+    background-color: #f6f5f3;
+}
+
+main .category {
+text-transform: uppercase;
+color: #a599a5;
+}
+
+main .h1 {
+    font-size: 3rem;
+    color: #4e3969;
+}
+
+main .traditional {
+    display: none;
 }
