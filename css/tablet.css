@@ -13,7 +13,38 @@
     padding-left: 10px;
    }
 
+   /* SUBCONTAINER W/IMAGE  */
+
    main .traditional {
       display: inline;
   }
+
+  main .info-recipe ul {
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 30px;
 }
+
+main .info-recipe ul li {
+   width: calc((100% - 60px) / 3);
+}
+
+/* social logos  */
+
+main .social li {
+   width: calc((100% - 100px) / 5);
+   text-align: center;
+}
+
+/* BANNER  */
+
+main .banner {
+   display: block;
+   margin-bottom: 50px;
+}
+
+
+
+
+}
+

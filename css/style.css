@@ -13,7 +13,7 @@ body {
 
 img {
     width: 100%;
-    display: inline-block;
+    display: block;
 }
 
 /* HEADER  */
@@ -27,7 +27,7 @@ header {
     font-family: 'Nerko One', cursive;
     color: #ff9614;
     text-transform: uppercase;
-    text-shadow: 1px 0px 1px grey;
+    text-shadow: 0px 3px 4px grey;
     text-align: center;
     font-size: 3rem;
 }
@@ -71,20 +71,81 @@ main .img-subcontainer {
 main .info-recipe {
     width: 100%;
     background-color: white;
-    box-shadow: 1px 0px 5px grey;
+    box-shadow: 1px 0px 8px grey;
     padding: 40px;
 }
 
-main .info-recipe h2 {
+main .info-recipe h3 {
     font-size: 0.8rem;
     padding-bottom: 20px;
 }
 
 main .info-recipe ul {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
     font-size: 0.6rem;
 }
 
 main .info-recipe ul li {
     padding-bottom: 10px;
+}
+
+/* SOCIAL LOGOS */
+
+main .social {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+main .social li {
+    padding: 8px 15px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0px 3px 8px grey;
+}
+
+main .social strong {
+    display: none;
+}
+
+/* SOCIAL COLORS  */
+main .social .fa-facebook {
+    color: #1a77f3;
+}
+
+main .social .fa-twitter {
+    color: #009eff;
+}
+main .social .fa-instagram {
+    color: #de3d78;
+}
+main .social .fa-pinterest {
+    color: #e62222;
+}
+main .social .fa-youtube {
+    color: #e62222;
+}
+
+/* BANNER  */
+main .banner {
+    display: none;
+}
+
+/* SECTION PRESENTATION  */
+
+.recipe h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.recipe hr {
+    width: 20%;
+    border: 0px;
+    color: #f7972e;
 }

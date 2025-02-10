@@ -7,7 +7,43 @@
      
     main {
         background-color: green;
-        width: 70%;
     }
     
+    /* MAIN  */
+
+    /* subcontainer w/image  */
+    main .img-subcontainer {
+        display: flex;
+    }
+
+    main .img{
+        width: 70%;
+    }
+
+    main .info-recipe {
+        box-shadow: 2px 2px 8px grey;
+        width: 30%;
+        padding: 20px;
+    }
+
+    main .info-recipe ul {
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    main .info-recipe ul li {
+        width: 100%;
+    }
+
+    /* social logos  */
+    main .social li {
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+    }
+    main .social strong {
+        display: inline;
+        text-transform: uppercase;
+    }
 }
+
