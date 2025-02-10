@@ -5,9 +5,7 @@
 }
 
 body {
-    width: 450px;
     margin: 0 auto;
-    max-width: 100%;
     font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
@@ -36,6 +34,7 @@ header {
 
 main {
     width: 100%;
+    margin: 0 auto;
     padding: 25px;
     padding-bottom: 75px;
     background-color: #f6f5f3;
@@ -136,7 +135,7 @@ main .banner {
     display: none;
 }
 
-/* SECTION PRESENTATION  */
+/* SECTION RECIPE  */
 
 .recipe h2 {
     font-size: 1.2rem;
@@ -162,4 +161,35 @@ main .banner {
 .recipe p {
     font-size: 0.8rem;
     line-height: 30px;
+}
+
+
+/* FOOTER SECTION  */
+
+footer {
+    background-color: #7c69a4;
+    color: white;
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 0.6rem;
+}
+
+.footer-container .mark {
+    margin-bottom: 20px;
+}
+
+.footer-container .mark :first-child{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.footer-container ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footer-container a {
+    color: white;
 }

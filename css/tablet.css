@@ -5,7 +5,8 @@
    }
 
    main {
-      background-color: orange;
+      padding-left: 60px;
+      padding-right: 60px;
   }
 
    header .logo{
@@ -45,7 +46,7 @@ main .banner {
 
 .recipe img {
    width: 40%;
-   padding-bottom: 10px;
+   padding-bottom: 5px;
    padding-right: 20px;
    float: left;
 }
