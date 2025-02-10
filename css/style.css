@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    width: 500px;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+}
+
+
+h1 {
+    font-family: 'Nerko One';
+    color: #ff9614;
+    text-transform: uppercase;
+    text-shadow: 1px 0px 1px grey;
+    font-size: 3rem;
+    text-align: center;
+}
