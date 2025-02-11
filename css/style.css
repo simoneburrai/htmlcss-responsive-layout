@@ -101,12 +101,26 @@ main .social {
     margin-bottom: 30px;
 }
 
+
+main .social a {
+    all: unset;
+    cursor: pointer;
+}
+
 main .social li {
     padding: 8px 15px;
     border-radius: 15px;
     background-color: white;
-    box-shadow: 0px 3px 8px grey;
+    box-shadow: 0px
+    3px 8px grey;
+    border: 2px solid transparent;
 }
+
+main .social li:hover {
+    cursor: pointer;
+    border: 2px solid orange;
+}
+
 
 main .social strong {
     display: none;
